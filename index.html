@@ -169,24 +169,7 @@
             </form>
         </div>
     </div>
-
-    <script>
-        function sendMessage() {
-            var userInput = document.getElementById("user-input").value;
-            if (userInput.trim() === "") return;
-
-            var chatDisplay = document.getElementById("chat-display");
-            var messageContainer = document.createElement("div");
-            messageContainer.classList.add("message");
-
-            var messageText = document.createElement("p");
-            messageText.textContent = userInput;
-
-            messageContainer.appendChild(messageText);
-            chatDisplay.appendChild(messageContainer);
-
-            document.getElementById("user-input").value = ""; // Clear input field
-        }
-    </script>
+ <script src="script
+     .js"></script>
 </body>
 </html>
